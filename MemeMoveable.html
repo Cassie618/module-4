@@ -1,22 +1,20 @@
-<!-- This is my index James Caudell-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/moveable image 2.css">
-</head> <script src="movefunction.js"></script>
-<body><!-- this is the start of my body-->
-    <h1>Caudell_module1</h1>
-    <!-- here is my meme -->
-    <p>
-</p>
-<button id="moveRight">right</button>
-<button id= "moveLeft">left</button>
-<button id="stopImg"> stop</button>
-<div id= "container">
-    <img src="img/slothmeme.jpg"/></div>
-   
+    <title>Moving our image </title>
+    <link rel="stylesheet" href="css/moveable image.css"/>
+</head>
+<body>
+    <button onclick="startMoving('right')">Move Right</button>
+    <button onclick="startMoving('left')">Move Left</button>
+    <button onclick="startMoving('up')">Move Up</button>
+    <button onclick="startMoving('down')">Move Down</button>
+    <button onclick="stopMoving()">Stop</button>
+    <div id="container">
+        <img id="movableImage" src="img/slothmeme.JPG" />
+    </div>
+    <script src="javascript/movefuction.js"></script>
 </body>
 </html>
